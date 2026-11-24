@@ -1,0 +1,234 @@
+the idea is we have fragmented systems, right?
+So on CompanyFusion, we have certain data.
+On CompanyEndeavor, we have certain data.
+All of these systems.
+for us as a people partner and for the managers as well, right?
+It's all fragmented data.
+So we wanted one unified system and based on role-based security, we will be kind of putting the interface in place.
+So right now, currently we have the People Partner Portal as your, if you must be aware about the same, right?
+So People Partner Portal, what it does is it uses
+a repository, right?
+There is a warehouse that it uses where it fetches the data from CompanyFusion APP, from CompanyEndeavor APP, from CompanyFulcrum APP for that matter, and it shows as a, it showcases on the people partner portal.
+What happens is based on that, we are able to have conversations with people, right?
+So the data is in one place.
+and we are able to have conversations.
+Now for managers, there's no such portal right now wherein all this is happening.
+So we wanted to replicate.
+Now the idea was why to just showcase the data when we can deploy an agent and also give some talent insights based on it.
+So I'll just share my screen if you can see it.
+OK, so this is a talent nexus that we are trying to build, right?
+So dashboard will have the overall, like for the people partner, it will have the overall portfolio view versus a manager for the team, right?
+That is there.
+So dashboard will cover everything, like how many trainings are completed and how.
+What are the mandatory trainings that I have that list?
+I'll share that with you as well.
+That what is it that we're trying or if we deep dive, which is my team and we say that OK, there are 12 members and if I have to look at Maya Thomas over here, right, which is the first team member, I will be able to see that how many years of promotion Maya has does and is she eligible.
+So it will give those the agent will give an insight onto it and it is a recommendation.
+a decision, right?
+Because this will be endorsed by HR.
+So definitely we'll be clear when we are articulating that this is not going to be a decision maker for any of the managers or any of the people partners.
+It is simply going to be an indication or a guideline or just a recommendation that can be
+coming in based on which the manager and the people partners can decide on it.
+So right now what is happening is all the data, right from awards to promotions, to learning, we separately fetch the data.
+This agent will give a summarized view of it.
+Based on the comments we are entering, the agent will mature again.
+Right, so this was the, in a nutshell, I'm just giving you, of course, I have a good document which I can share with you as well.
+Now, the question is that can we build something like this?
+Can we build, are you aware about the people partner portal?
+I have not started, I have not shared, checked that one out actually.
+So this access only, I think people partners have, but as you can see, it's not working.
+For me, I mean the whole this thing system is hung up.
+So I will share a snippet of the People partner portal, but I would need your view as to what is doable because from that lens we are a little bit, we do not have that much clarity as to how much we can do.
+especially given the timeline that is there, right?
+So what I can suggest here is we can start with some of the dummy data that is from everywhere you are getting some data, right?
+Like CompanyEndeavor or scale profile.
+So what we can do is if you are making it for the managers, as you said now, we are making it for the managers because people partners have something, but managers don't have it.
+Yeah, So the starting point from my prospective is will be we can start with the dummy data that is not the dummy access dummy data.
+You have some real data also, right?
+Or if you do not want to expose that dummy, that complete data, what you can do is I can create the same kind of data based on that synthetic data.
+That is synthetic data is that like fake data based on this real time data.
+So the ones that we download from CompanyPortal, et cetera, how we used to do, right?
+Similar ones, right?
+Okay, Basically, the synthetic data is like, not exactly, dummy data is like, you know, you are just making a very fake up data.
+So it's not very good quality of testing.
+Since now AI is generating some fake data, fake data in the synthetic data.
+That means it is just based on this real time of data, but it is not the real data also.
+So security risk will not be there.
+So what we can do is we can start with an.
+application, just like the, let's just say UI mode that you have actually, you know, created like a snippet.
+So we can start with some of the, let's just say no code application, whether it is Claude or whether it is Codex.
+And we can start with the basic ones.
+And we have, if we have that particular data in a centralized repository, for example, let's just say, or I'm not even talking about centralized repository.
+Let's say, let's start with the basic Excel data.
+or any particular format that you are seeing from different, different format, different, different, basically different, different applications that you are getting, right?
+So if you are getting those particular data, because we can later on we can actually, you know, improve it, that we can go with the API calls or the taking it directly from your their databases.
+But currently when we are starting from the dummy, we should start with a POC that, okay, this was, this is our idea.
+So once we have
+the UI part and the dummy applications like you know all the data data managing is done, UI part is done, then we can try and look it out.
+Okay, we have done it with the dummy or the fake synthetic data from the Excel format.
+Now instead of the Excel, we want to go forward with the different databases.
+
+So what my view will be I should prepare a context document.
+I should prepare a complete requirement document.
+Then I should prepare a build based on that with the help of Claude or your codecs.
+And then I should prepare a single application.
+Firstly, let's start with the local and then we should start out with that one.
+And we also thought about certain case studies, like a lot of case studies we have already from a beginning.
+
+point right which will help to build those talent insights which the agent will that also help you to that will help once I have prepared that application and I actually let's just say integrated with a local LLM.
+
+So what we can do is we can actually upload those particular case studies and ask AI to study this and then based on these case studies only recommend the particular let's just say promotion or whatever recommendations are actually happening.
+
+No, don't go with the generalized one, right?
+
+You can actually ask AI to don't go with the generalized one.
+
+We have the case studies.
+
+Please base your particular recommendation on these particular case studies only.
+
+So we can limit them.
+
+That is actually a very good point.
+
+Otherwise it would be become very, very, you know, let's just say generalized one.
+
+Correct, correct.
+
+So data along with these case studies, the agent will generate the talent insights that is there.
+
+So we'll be able to do this right.
+
+And just one.
+
+Then blind side, I mean blind spot for us is the agent mesh building, right?
+So that you're super equipped with, right?
+Because we don't know how to deploy an agent per se on agent mesh.
+
+So I'll give you everything, Pandy.
+I just, you know, think that something that maybe you just go through, this is the first call we are connecting.
+
+You just go through it and then you also kind of come back with, you know, what is it that is needed.
+
+And the first thing is we need to submit the sprint plan today, right?
+
+So that sprint plan is also something that we need to work upon.
+
+We've worked on that as well a little bit, because thinking in mind, but then you see from a feasibility standpoint that whether or not.
+
+122
+00:09:31,740 --> 00:09:40,250
+Basically, yes, I have to check it from the technical, see, share that one with me, what is happening, because today again I am actually having some Viva calls.
+
+123
+00:09:40,320 --> 00:09:45,520
+just finish this out, I'll read it out and based on that only, share your sprint plan with me.
+
+124
+00:09:45,520 --> 00:09:51,480
+So if I think that, okay, technically we couldn't achieve this one, this one, I'll just make my suggestions there only.
+
+125
+00:09:51,680 --> 00:09:54,840
+Otherwise we'll keep the sprint plan as per your expectations only.
+
+126
+00:09:55,160 --> 00:10:00,360
+Just there I think that, okay, technically it is not feasible, right?
+
+127
+00:10:02,280 --> 00:10:04,680
+Because technically it would take some time.
+
+128
+00:10:05,000 --> 00:10:06,880
+What is the deadline for submission?
+
+129
+00:10:06,880 --> 00:10:24,320
+Everything final deadline, because sprint, sprint, it's not working for me actually, but see sprint planning ka, midpoint is I think on this week end or something or next week end.
+
+130
+00:10:25,080 --> 00:10:27,160
+I'll send you that snippet as well.
+
+131
+00:10:30,160 --> 00:10:40,080
+Yeah, because then we will not have a much of A say, but that's how it is.
+
+132
+00:10:40,720 --> 00:10:47,280
+But you know, maybe there's a gap or something we can add on from a technical standpoint, that would be great.
+
+133
+00:10:47,680 --> 00:10:48,720
+And see people partner.
+
+134
+00:10:50,080 --> 00:10:57,560
+Just make sure that you have and most
+
+135
+00:10:57,670 --> 00:10:59,990
+importantly enough, whatever data you have prepared.
+
+136
+00:11:00,510 --> 00:11:13,070
+Just give me even if the smaller portion of that particular data, because when I'm preparing that application right, my dummy application that I'll try to prepare a dummy application, right?
+
+137
+00:11:13,070 --> 00:11:14,310
+A simple dummy application.
+
+138
+00:11:14,310 --> 00:11:25,790
+I'll try to prepare and then I'll show it to all of you that OK, this is what my thinking process is and then we can take it forward.
+
+139
+00:11:26,110 --> 00:11:28,510
+So then I will also have clarity.
+
+140
+00:11:29,950 --> 00:11:30,390
+Perfect.
+
+141
+00:11:30,390 --> 00:11:30,830
+Sounds good.
+
+142
+00:11:31,310 --> 00:11:35,230
+I'll just have to probably start restart my system.
+
+143
+00:11:36,190 --> 00:11:37,110
+Don't ask, don't ask.
+
+144
+00:11:38,110 --> 00:11:40,830
+I'm also going for the I don't know.
+
+145
+00:11:40,830 --> 00:11:43,870
+This is something weird going on.
+
+146
+00:11:44,190 --> 00:11:46,670
+It's really weird.
+
+147
+00:11:46,750 --> 00:11:51,630
+So I was like I'm sure something is off with the.
+
+148
+00:11:52,190 --> 00:12:20,270
+Laptop, so I'll just maybe, but I'll work on this, because I also have to visit the office, if you can, if you can, it'll be great to see you also in person, but of course I can, but the one of my team member, he lost his cousin brother, so we had a very important meeting.
+
+149
+00:12:20,830 --> 00:12:31,550
+Complete webinar, we have a complete planning ahead meeting was there, but he lost his brother, so because of that two days he's on leave, so most probably he will be coming either tomorrow or day after tomorrow.
+
+150
+00:12:31,630 --> 00:12:35,470
+I'm suggesting day after tomorrow, because so...
+
