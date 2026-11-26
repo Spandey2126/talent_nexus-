@@ -1,0 +1,5846 @@
+{
+  "datasets": [
+    {
+      "name": "Employee profile",
+      "source_system": "CompanyDeavor",
+      "visibility": "manager-shareable"
+    },
+    {
+      "name": "Performance summary",
+      "source_system": "CompanyFusion",
+      "visibility": "manager-shareable"
+    },
+    {
+      "name": "Skills",
+      "source_system": "CompanyFulcrum",
+      "visibility": "manager-shareable"
+    },
+    {
+      "name": "Career history",
+      "source_system": "CompanyDeavor",
+      "visibility": "manager-shareable"
+    },
+    {
+      "name": "Allocation",
+      "source_system": "CompanyFulcrum",
+      "visibility": "manager-shareable"
+    },
+    {
+      "name": "Learning",
+      "source_system": "Learning Portal",
+      "visibility": "manager-shareable"
+    },
+    {
+      "name": "Rewards",
+      "source_system": "Rewards Portal",
+      "visibility": "people-partner-only"
+    },
+    {
+      "name": "Promotion",
+      "source_system": "Promotion Portal",
+      "visibility": "people-partner-only"
+    },
+    {
+      "name": "Check-in commitments",
+      "source_system": "People Partner Portal",
+      "visibility": "people-partner-only"
+    },
+    {
+      "name": "Development goals",
+      "source_system": "CompanyFulcrum",
+      "visibility": "manager-shareable"
+    },
+    {
+      "name": "Certifications",
+      "source_system": "Learning Portal",
+      "visibility": "manager-shareable"
+    },
+    {
+      "name": "Mentoring",
+      "source_system": "People Partner Portal",
+      "visibility": "people-partner-only"
+    },
+    {
+      "name": "Project outcomes",
+      "source_system": "CompanyFusion",
+      "visibility": "manager-shareable"
+    },
+    {
+      "name": "Manager feedback",
+      "source_system": "CompanyFusion",
+      "visibility": "manager-shareable"
+    },
+    {
+      "name": "Mobility interest",
+      "source_system": "CompanyDeavor",
+      "visibility": "people-partner-only"
+    },
+    {
+      "name": "Recognition",
+      "source_system": "Rewards Portal",
+      "visibility": "people-partner-only"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "emp-001",
+      "full_name": "Maya Thomas",
+      "job_title": "Senior Analyst",
+      "grade": "G6",
+      "department": "Technology",
+      "team_id": "team-1",
+      "team_name": "Team 1",
+      "manager_name": "Priya Shah",
+      "tenure_years": 2.9,
+      "training_completed": 7,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Senior Analyst · Grade 6",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Consistent results with room to broaden scope",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Project delivery",
+            "Product thinking",
+            "Facilitation"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "3 years in role family · 2 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Customer Experience",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "7 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "Team contribution award",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 2 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 01: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Build advanced data storytelling skills",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Agile Delivery",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "Participates in a mentoring circle",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Supported a cross-team release",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Collaborates well across functions",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "No mobility preference recorded",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "Recognized for customer focus",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 6",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-002",
+      "full_name": "Kabir Nair",
+      "job_title": "Product Analyst",
+      "grade": "G7",
+      "department": "Client Delivery",
+      "team_id": "team-1",
+      "team_name": "Team 1",
+      "manager_name": "Priya Shah",
+      "tenure_years": 4.6,
+      "training_completed": 3,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Product Analyst · Grade 7",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "High quality work and dependable collaboration",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Process design",
+            "Cloud platforms",
+            "Customer discovery"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "4 years in role family · 3 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Data Enablement",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "3 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "No recent award record",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 3 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 02: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Practice mentoring peers",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Data Fundamentals",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "No current mentoring record",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Improved reporting quality",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Growing confidence in ambiguous work",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "Interested in broader project exposure",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "No recent recognition record",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 7",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-003",
+      "full_name": "Isha Menon",
+      "job_title": "Consultant",
+      "grade": "G8",
+      "department": "People & Culture",
+      "team_id": "team-1",
+      "team_name": "Team 1",
+      "manager_name": "Priya Shah",
+      "tenure_years": 6.3,
+      "training_completed": 10,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Consultant · Grade 8",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Growing ownership of complex assignments",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Quality engineering",
+            "Risk analysis",
+            "Stakeholder communication"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "5 years in role family · 4 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Process Excellence",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "10 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "Peer recognition",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 4 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 03: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Develop product strategy experience",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "No current certification record",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "Mentors one peer",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Contributed to service reliability",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Communicates progress clearly",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "Open to adjacent role exploration",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "Recognized for collaboration",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 8",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-004",
+      "full_name": "Arjun Mehta",
+      "job_title": "Data Engineer",
+      "grade": "G5",
+      "department": "Technology",
+      "team_id": "team-1",
+      "team_name": "Team 1",
+      "manager_name": "Priya Shah",
+      "tenure_years": 8.0,
+      "training_completed": 6,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Data Engineer · Grade 5",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Positive stakeholder feedback on recent work",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Facilitation",
+            "Technical writing",
+            "Project delivery"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "6 years in role family · 1 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Platform Modernization",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "6 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "Team contribution award",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 1 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 04: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Strengthen cloud architecture skills",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Cloud Foundations",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "Participates in a mentoring circle",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Delivered a workflow improvement",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Collaborates well across functions",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "No mobility preference recorded",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "Recognized for customer focus",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 5",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-005",
+      "full_name": "Tara Iyer",
+      "job_title": "Business Analyst",
+      "grade": "G6",
+      "department": "Client Delivery",
+      "team_id": "team-1",
+      "team_name": "Team 1",
+      "manager_name": "Priya Shah",
+      "tenure_years": 2.2,
+      "training_completed": 2,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Business Analyst · Grade 6",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Strong delivery across committed outcomes",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Customer discovery",
+            "Data analysis",
+            "Process design"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "2 years in role family · 2 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Customer Experience",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "2 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "No recent award record",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 2 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 05: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Facilitate customer workshops",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Agile Delivery",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "No current mentoring record",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Supported a cross-team release",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Growing confidence in ambiguous work",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "Interested in broader project exposure",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "No recent recognition record",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 6",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-006",
+      "full_name": "Rohan Das",
+      "job_title": "QA Engineer",
+      "grade": "G7",
+      "department": "People & Culture",
+      "team_id": "team-1",
+      "team_name": "Team 1",
+      "manager_name": "Priya Shah",
+      "tenure_years": 3.9,
+      "training_completed": 9,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "QA Engineer · Grade 7",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Consistent results with room to broaden scope",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Stakeholder communication",
+            "Coaching",
+            "Quality engineering"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "3 years in role family · 3 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Data Enablement",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "9 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "Peer recognition",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 3 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 06: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Improve quality engineering practices",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Data Fundamentals",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "Mentors one peer",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Improved reporting quality",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Communicates progress clearly",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "Open to adjacent role exploration",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "Recognized for collaboration",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 7",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-007",
+      "full_name": "Neha Kapoor",
+      "job_title": "Project Lead",
+      "grade": "G8",
+      "department": "Technology",
+      "team_id": "team-1",
+      "team_name": "Team 1",
+      "manager_name": "Priya Shah",
+      "tenure_years": 5.6,
+      "training_completed": 5,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Project Lead · Grade 8",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "High quality work and dependable collaboration",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Project delivery",
+            "Product thinking",
+            "Facilitation"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "4 years in role family · 4 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Process Excellence",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "5 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "Team contribution award",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 4 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 07: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Expand people leadership experience",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "No current certification record",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "Participates in a mentoring circle",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Contributed to service reliability",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Collaborates well across functions",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "No mobility preference recorded",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "Recognized for customer focus",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 8",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-008",
+      "full_name": "Dev Malhotra",
+      "job_title": "Software Engineer",
+      "grade": "G5",
+      "department": "Client Delivery",
+      "team_id": "team-1",
+      "team_name": "Team 1",
+      "manager_name": "Priya Shah",
+      "tenure_years": 7.3,
+      "training_completed": 1,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Software Engineer · Grade 5",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Growing ownership of complex assignments",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Process design",
+            "Cloud platforms",
+            "Customer discovery"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "5 years in role family · 1 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Platform Modernization",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "1 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "No recent award record",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 1 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 08: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Lead a cross-functional initiative",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Cloud Foundations",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "No current mentoring record",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Delivered a workflow improvement",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Growing confidence in ambiguous work",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "Interested in broader project exposure",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "No recent recognition record",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 5",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-009",
+      "full_name": "Anaya Bose",
+      "job_title": "People Analyst",
+      "grade": "G6",
+      "department": "People & Culture",
+      "team_id": "team-1",
+      "team_name": "Team 1",
+      "manager_name": "Priya Shah",
+      "tenure_years": 1.5,
+      "training_completed": 8,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "People Analyst · Grade 6",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Positive stakeholder feedback on recent work",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Quality engineering",
+            "Risk analysis",
+            "Stakeholder communication"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "6 years in role family · 2 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Customer Experience",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "8 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "Peer recognition",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 2 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 09: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Build advanced data storytelling skills",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Agile Delivery",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "Mentors one peer",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Supported a cross-team release",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Communicates progress clearly",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "Open to adjacent role exploration",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "Recognized for collaboration",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 6",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-010",
+      "full_name": "Vihaan Shah",
+      "job_title": "Operations Specialist",
+      "grade": "G7",
+      "department": "Technology",
+      "team_id": "team-1",
+      "team_name": "Team 1",
+      "manager_name": "Priya Shah",
+      "tenure_years": 3.2,
+      "training_completed": 4,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Operations Specialist · Grade 7",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Strong delivery across committed outcomes",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Facilitation",
+            "Technical writing",
+            "Project delivery"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "2 years in role family · 3 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Data Enablement",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "4 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "Team contribution award",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 3 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 10: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Practice mentoring peers",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Data Fundamentals",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "Participates in a mentoring circle",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Improved reporting quality",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Collaborates well across functions",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "No mobility preference recorded",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "Recognized for customer focus",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 7",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-011",
+      "full_name": "Zoya Khan",
+      "job_title": "Senior Consultant",
+      "grade": "G8",
+      "department": "Client Delivery",
+      "team_id": "team-2",
+      "team_name": "Team 2",
+      "manager_name": "Manager 2",
+      "tenure_years": 4.9,
+      "training_completed": 0,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Senior Consultant · Grade 8",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Consistent results with room to broaden scope",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Customer discovery",
+            "Data analysis",
+            "Process design"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "3 years in role family · 4 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Process Excellence",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "0 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "No recent award record",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 4 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 11: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Develop product strategy experience",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "No current certification record",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "No current mentoring record",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Contributed to service reliability",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Growing confidence in ambiguous work",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "Interested in broader project exposure",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "No recent recognition record",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 8",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-012",
+      "full_name": "Kunal Rao",
+      "job_title": "UX Designer",
+      "grade": "G5",
+      "department": "People & Culture",
+      "team_id": "team-2",
+      "team_name": "Team 2",
+      "manager_name": "Manager 2",
+      "tenure_years": 6.6,
+      "training_completed": 7,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "UX Designer · Grade 5",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "High quality work and dependable collaboration",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Stakeholder communication",
+            "Coaching",
+            "Quality engineering"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "4 years in role family · 1 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Platform Modernization",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "7 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "Peer recognition",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 1 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 12: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Strengthen cloud architecture skills",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Cloud Foundations",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "Mentors one peer",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Delivered a workflow improvement",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Communicates progress clearly",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "Open to adjacent role exploration",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "Recognized for collaboration",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 5",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-013",
+      "full_name": "Aditi Sinha",
+      "job_title": "Program Manager",
+      "grade": "G6",
+      "department": "Technology",
+      "team_id": "team-2",
+      "team_name": "Team 2",
+      "manager_name": "Manager 2",
+      "tenure_years": 8.3,
+      "training_completed": 3,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Program Manager · Grade 6",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Growing ownership of complex assignments",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Project delivery",
+            "Product thinking",
+            "Facilitation"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "5 years in role family · 2 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Customer Experience",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "3 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "Team contribution award",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 2 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 13: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Facilitate customer workshops",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Agile Delivery",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "Participates in a mentoring circle",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Supported a cross-team release",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Collaborates well across functions",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "No mobility preference recorded",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "Recognized for customer focus",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 6",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-014",
+      "full_name": "Reyansh Patel",
+      "job_title": "Data Scientist",
+      "grade": "G7",
+      "department": "Client Delivery",
+      "team_id": "team-2",
+      "team_name": "Team 2",
+      "manager_name": "Manager 2",
+      "tenure_years": 2.5,
+      "training_completed": 10,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Data Scientist · Grade 7",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Positive stakeholder feedback on recent work",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Process design",
+            "Cloud platforms",
+            "Customer discovery"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "6 years in role family · 3 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Data Enablement",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "10 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "No recent award record",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 3 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 14: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Improve quality engineering practices",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Data Fundamentals",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "No current mentoring record",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Improved reporting quality",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Growing confidence in ambiguous work",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "Interested in broader project exposure",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "No recent recognition record",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 7",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-015",
+      "full_name": "Meera Joshi",
+      "job_title": "Business Partner",
+      "grade": "G8",
+      "department": "People & Culture",
+      "team_id": "team-2",
+      "team_name": "Team 2",
+      "manager_name": "Manager 2",
+      "tenure_years": 4.2,
+      "training_completed": 6,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Business Partner · Grade 8",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Strong delivery across committed outcomes",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Quality engineering",
+            "Risk analysis",
+            "Stakeholder communication"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "2 years in role family · 4 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Process Excellence",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "6 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "Peer recognition",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 4 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 15: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Expand people leadership experience",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "No current certification record",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "Mentors one peer",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Contributed to service reliability",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Communicates progress clearly",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "Open to adjacent role exploration",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "Recognized for collaboration",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 8",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-016",
+      "full_name": "Ishaan Kulkarni",
+      "job_title": "Cloud Engineer",
+      "grade": "G5",
+      "department": "Technology",
+      "team_id": "team-2",
+      "team_name": "Team 2",
+      "manager_name": "Manager 2",
+      "tenure_years": 5.9,
+      "training_completed": 2,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Cloud Engineer · Grade 5",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Consistent results with room to broaden scope",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Facilitation",
+            "Technical writing",
+            "Project delivery"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "3 years in role family · 1 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Platform Modernization",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "2 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "Team contribution award",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 1 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 16: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Lead a cross-functional initiative",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Cloud Foundations",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "Participates in a mentoring circle",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Delivered a workflow improvement",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Collaborates well across functions",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "No mobility preference recorded",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "Recognized for customer focus",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 5",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-017",
+      "full_name": "Sara Thomas",
+      "job_title": "Associate Consultant",
+      "grade": "G6",
+      "department": "Client Delivery",
+      "team_id": "team-2",
+      "team_name": "Team 2",
+      "manager_name": "Manager 2",
+      "tenure_years": 7.6,
+      "training_completed": 9,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Associate Consultant · Grade 6",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "High quality work and dependable collaboration",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Customer discovery",
+            "Data analysis",
+            "Process design"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "4 years in role family · 2 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Customer Experience",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "9 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "No recent award record",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 2 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 17: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Build advanced data storytelling skills",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Agile Delivery",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "No current mentoring record",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Supported a cross-team release",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Growing confidence in ambiguous work",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "Interested in broader project exposure",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "No recent recognition record",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 6",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-018",
+      "full_name": "Aarav Gupta",
+      "job_title": "Product Owner",
+      "grade": "G7",
+      "department": "People & Culture",
+      "team_id": "team-2",
+      "team_name": "Team 2",
+      "manager_name": "Manager 2",
+      "tenure_years": 1.8,
+      "training_completed": 5,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Product Owner · Grade 7",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Growing ownership of complex assignments",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Stakeholder communication",
+            "Coaching",
+            "Quality engineering"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "5 years in role family · 3 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Data Enablement",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "5 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "Peer recognition",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 3 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 18: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Practice mentoring peers",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Data Fundamentals",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "Mentors one peer",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Improved reporting quality",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Communicates progress clearly",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "Open to adjacent role exploration",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "Recognized for collaboration",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 7",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-019",
+      "full_name": "Diya Nair",
+      "job_title": "Learning Specialist",
+      "grade": "G8",
+      "department": "Technology",
+      "team_id": "team-2",
+      "team_name": "Team 2",
+      "manager_name": "Manager 2",
+      "tenure_years": 3.5,
+      "training_completed": 1,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Learning Specialist · Grade 8",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Positive stakeholder feedback on recent work",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Project delivery",
+            "Product thinking",
+            "Facilitation"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "6 years in role family · 4 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Process Excellence",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "1 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "Team contribution award",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 4 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 19: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Develop product strategy experience",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "No current certification record",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "Participates in a mentoring circle",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Contributed to service reliability",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Collaborates well across functions",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "No mobility preference recorded",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "Recognized for customer focus",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 8",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-020",
+      "full_name": "Nikhil Verma",
+      "job_title": "Developer",
+      "grade": "G5",
+      "department": "Client Delivery",
+      "team_id": "team-2",
+      "team_name": "Team 2",
+      "manager_name": "Manager 2",
+      "tenure_years": 5.2,
+      "training_completed": 8,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Developer · Grade 5",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Strong delivery across committed outcomes",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Process design",
+            "Cloud platforms",
+            "Customer discovery"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "2 years in role family · 1 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Platform Modernization",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "8 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "No recent award record",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 1 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 20: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Strengthen cloud architecture skills",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Cloud Foundations",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "No current mentoring record",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Delivered a workflow improvement",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Growing confidence in ambiguous work",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "Interested in broader project exposure",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "No recent recognition record",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 5",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-021",
+      "full_name": "Myra Desai",
+      "job_title": "Delivery Lead",
+      "grade": "G6",
+      "department": "People & Culture",
+      "team_id": "team-3",
+      "team_name": "Team 3",
+      "manager_name": "Manager 3",
+      "tenure_years": 6.9,
+      "training_completed": 4,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Delivery Lead · Grade 6",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Consistent results with room to broaden scope",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Quality engineering",
+            "Risk analysis",
+            "Stakeholder communication"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "3 years in role family · 2 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Customer Experience",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "4 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "Peer recognition",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 2 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 21: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Facilitate customer workshops",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Agile Delivery",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "Mentors one peer",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Supported a cross-team release",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Communicates progress clearly",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "Open to adjacent role exploration",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "Recognized for collaboration",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 6",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-022",
+      "full_name": "Advik Shah",
+      "job_title": "Finance Analyst",
+      "grade": "G7",
+      "department": "Technology",
+      "team_id": "team-3",
+      "team_name": "Team 3",
+      "manager_name": "Manager 3",
+      "tenure_years": 8.6,
+      "training_completed": 0,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Finance Analyst · Grade 7",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "High quality work and dependable collaboration",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Facilitation",
+            "Technical writing",
+            "Project delivery"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "4 years in role family · 3 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Data Enablement",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "0 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "Team contribution award",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 3 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 22: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Improve quality engineering practices",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Data Fundamentals",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "Participates in a mentoring circle",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Improved reporting quality",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Collaborates well across functions",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "No mobility preference recorded",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "Recognized for customer focus",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 7",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-023",
+      "full_name": "Anika Rao",
+      "job_title": "Security Analyst",
+      "grade": "G8",
+      "department": "Client Delivery",
+      "team_id": "team-3",
+      "team_name": "Team 3",
+      "manager_name": "Manager 3",
+      "tenure_years": 2.8,
+      "training_completed": 7,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Security Analyst · Grade 8",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Growing ownership of complex assignments",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Customer discovery",
+            "Data analysis",
+            "Process design"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "5 years in role family · 4 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Process Excellence",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "7 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "No recent award record",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 4 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 23: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Expand people leadership experience",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "No current certification record",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "No current mentoring record",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Contributed to service reliability",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Growing confidence in ambiguous work",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "Interested in broader project exposure",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "No recent recognition record",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 8",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-024",
+      "full_name": "Ritvik Sen",
+      "job_title": "Service Manager",
+      "grade": "G5",
+      "department": "People & Culture",
+      "team_id": "team-3",
+      "team_name": "Team 3",
+      "manager_name": "Manager 3",
+      "tenure_years": 4.5,
+      "training_completed": 3,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Service Manager · Grade 5",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Positive stakeholder feedback on recent work",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Stakeholder communication",
+            "Coaching",
+            "Quality engineering"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "6 years in role family · 1 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Platform Modernization",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "3 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "Peer recognition",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 1 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 24: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Lead a cross-functional initiative",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Cloud Foundations",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "Mentors one peer",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Delivered a workflow improvement",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Communicates progress clearly",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "Open to adjacent role exploration",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "Recognized for collaboration",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 5",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-025",
+      "full_name": "Kiara Menon",
+      "job_title": "Research Analyst",
+      "grade": "G6",
+      "department": "Technology",
+      "team_id": "team-3",
+      "team_name": "Team 3",
+      "manager_name": "Manager 3",
+      "tenure_years": 6.2,
+      "training_completed": 10,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Research Analyst · Grade 6",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Strong delivery across committed outcomes",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Project delivery",
+            "Product thinking",
+            "Facilitation"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "2 years in role family · 2 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Customer Experience",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "10 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "Team contribution award",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 2 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 25: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Build advanced data storytelling skills",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Agile Delivery",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "Participates in a mentoring circle",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Supported a cross-team release",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Collaborates well across functions",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "No mobility preference recorded",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "Recognized for customer focus",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 6",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-026",
+      "full_name": "Samar Bhat",
+      "job_title": "Platform Engineer",
+      "grade": "G7",
+      "department": "Client Delivery",
+      "team_id": "team-3",
+      "team_name": "Team 3",
+      "manager_name": "Manager 3",
+      "tenure_years": 7.9,
+      "training_completed": 6,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Platform Engineer · Grade 7",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Consistent results with room to broaden scope",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Process design",
+            "Cloud platforms",
+            "Customer discovery"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "3 years in role family · 3 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Data Enablement",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "6 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "No recent award record",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 3 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 26: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Practice mentoring peers",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Data Fundamentals",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "No current mentoring record",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Improved reporting quality",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Growing confidence in ambiguous work",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "Interested in broader project exposure",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "No recent recognition record",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 7",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-027",
+      "full_name": "Riya Chawla",
+      "job_title": "HR Analyst",
+      "grade": "G8",
+      "department": "People & Culture",
+      "team_id": "team-3",
+      "team_name": "Team 3",
+      "manager_name": "Manager 3",
+      "tenure_years": 2.1,
+      "training_completed": 2,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "HR Analyst · Grade 8",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "High quality work and dependable collaboration",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Quality engineering",
+            "Risk analysis",
+            "Stakeholder communication"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "4 years in role family · 4 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Process Excellence",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "2 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "Peer recognition",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 4 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 27: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Develop product strategy experience",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "No current certification record",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "Mentors one peer",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Contributed to service reliability",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Communicates progress clearly",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "Open to adjacent role exploration",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "Recognized for collaboration",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 8",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-028",
+      "full_name": "Yash Arora",
+      "job_title": "Technical Lead",
+      "grade": "G5",
+      "department": "Technology",
+      "team_id": "team-3",
+      "team_name": "Team 3",
+      "manager_name": "Manager 3",
+      "tenure_years": 3.8,
+      "training_completed": 9,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Technical Lead · Grade 5",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Growing ownership of complex assignments",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Facilitation",
+            "Technical writing",
+            "Project delivery"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "5 years in role family · 1 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Platform Modernization",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "9 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "Team contribution award",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 1 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 28: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Strengthen cloud architecture skills",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Cloud Foundations",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "Participates in a mentoring circle",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Delivered a workflow improvement",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Collaborates well across functions",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "No mobility preference recorded",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "Recognized for customer focus",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 5",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-029",
+      "full_name": "Sana Mirza",
+      "job_title": "Client Partner",
+      "grade": "G6",
+      "department": "Client Delivery",
+      "team_id": "team-3",
+      "team_name": "Team 3",
+      "manager_name": "Manager 3",
+      "tenure_years": 5.5,
+      "training_completed": 5,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Client Partner · Grade 6",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Positive stakeholder feedback on recent work",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Customer discovery",
+            "Data analysis",
+            "Process design"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "6 years in role family · 2 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Customer Experience",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "5 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "No recent award record",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 2 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 29: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Facilitate customer workshops",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Agile Delivery",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "No current mentoring record",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Supported a cross-team release",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Growing confidence in ambiguous work",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "Interested in broader project exposure",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "No recent recognition record",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 6",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    },
+    {
+      "id": "emp-030",
+      "full_name": "Neil Fernandes",
+      "job_title": "Operations Lead",
+      "grade": "G7",
+      "department": "People & Culture",
+      "team_id": "team-3",
+      "team_name": "Team 3",
+      "manager_name": "Manager 3",
+      "tenure_years": 7.2,
+      "training_completed": 1,
+      "training_total": 10,
+      "records": [
+        {
+          "field": "profile",
+          "value": "Operations Lead · Grade 7",
+          "dataset": "Employee profile",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "performance_summary",
+          "value": "Strong delivery across committed outcomes",
+          "dataset": "Performance summary",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "skills",
+          "value": [
+            "Stakeholder communication",
+            "Coaching",
+            "Quality engineering"
+          ],
+          "dataset": "Skills",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "career_history",
+          "value": "2 years in role family · 3 role changes",
+          "dataset": "Career history",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "allocation",
+          "value": "Data Enablement",
+          "dataset": "Allocation",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "learning",
+          "value": "1 of 10 assigned learning items completed",
+          "dataset": "Learning",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "reward",
+          "value": "Peer recognition",
+          "dataset": "Rewards",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "promotion_history",
+          "value": "Last role change recorded 3 years ago; eligibility requires HR review",
+          "dataset": "Promotion",
+          "source_system": "Promotion Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "private_checkin",
+          "value": "Private check-in note 30: not approved for manager sharing",
+          "dataset": "Check-in commitments",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "development_goal",
+          "value": "Improve quality engineering practices",
+          "dataset": "Development goals",
+          "source_system": "CompanyFulcrum",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "certification",
+          "value": "Data Fundamentals",
+          "dataset": "Certifications",
+          "source_system": "Learning Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mentoring",
+          "value": "Mentors one peer",
+          "dataset": "Mentoring",
+          "source_system": "People Partner Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "project_outcome",
+          "value": "Improved reporting quality",
+          "dataset": "Project outcomes",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "manager_feedback",
+          "value": "Communicates progress clearly",
+          "dataset": "Manager feedback",
+          "source_system": "CompanyFusion",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner",
+            "manager"
+          ]
+        },
+        {
+          "field": "mobility_interest",
+          "value": "Open to adjacent role exploration",
+          "dataset": "Mobility interest",
+          "source_system": "CompanyDeavor",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        },
+        {
+          "field": "recognition",
+          "value": "Recognized for collaboration",
+          "dataset": "Recognition",
+          "source_system": "Rewards Portal",
+          "as_of": "2026-10-31",
+          "visible_to": [
+            "people_partner"
+          ]
+        }
+      ],
+      "pay_band": "Private band 7",
+      "talent_tag": "Confidential talent label",
+      "private_notes": "Synthetic PP-only note; never share with manager agent."
+    }
+  ]
+}

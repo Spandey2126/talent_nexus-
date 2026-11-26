@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14213d">
+  <title>Talent Nexus · Talent intelligence</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div id="loginScreen" class="login-screen">
+    <div class="login-card">
+      <div class="brand-mark">TN</div>
+      <p class="eyebrow">LOCAL SYNTHETIC DATA DEMO</p>
+      <h1>Talent Nexus</h1>
+      <p class="muted">Evidence-backed talent conversations for People Partners and managers.</p>
+      <div class="role-choices">
+        <button class="role-choice" data-login="people-partner">
+          <span class="role-icon">PP</span><span><strong>People Partner</strong><small>Portfolio and employee context</small></span><span class="arrow">→</span>
+        </button>
+        <button class="role-choice" data-login="manager">
+          <span class="role-icon manager-icon">M</span><span><strong>Manager</strong><small>Own-team view and 1:1 preparation</small></span><span class="arrow">→</span>
+        </button>
+      </div>
+      <p class="login-foot">This local prototype uses synthetic profiles. It is advisory only and does not make employment decisions.</p>
+      <div id="loginError" class="error-message" hidden></div>
+    </div>
+  </div>
+
+  <div id="appShell" class="app-shell" hidden>
+    <aside class="sidebar">
+      <a class="brand" href="#home" aria-label="Talent Nexus home"><span class="brand-mark small">TN</span><span>Talent<span class="brand-light">Nexus</span></span></a>
+      <div class="workspace-label">WORKSPACE</div>
+      <nav id="mainNav" class="main-nav" aria-label="Main navigation"></nav>
+      <div class="sidebar-spacer"></div>
+      <div class="privacy-card"><span class="privacy-dot"></span><div><strong>Privacy guardrails on</strong><small>Role-scoped synthetic data</small></div></div>
+      <button id="logoutButton" class="logout-button">Switch demo role <span>↗</span></button>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <div><div class="breadcrumb">Talent intelligence <span>/</span> <strong id="viewLabel">Overview</strong></div><div class="mobile-brand">Talent Nexus</div></div>
+        <div class="topbar-right"><span class="local-pill"><i></i> Local demo</span><div class="user-chip"><span id="userInitial" class="avatar">A</span><span><strong id="userName">Demo user</strong><small id="userRole">Role</small></span></div></div>
+      </header>
+      <section id="content" class="content" aria-live="polite"></section>
+      <footer class="app-footer">Talent Nexus · Advisory only · Sources and dates are shown with each record</footer>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script src="/static/app.js" defer></script>
+</body>
+</html>
